@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class ConsumerService {
 
-    @KafkaListener(topics = "test", groupId = "spring")
-    public void consumer(String message) {
-        System.out.println(String.format("Subscribed : %s", message));
-    }
+//    @KafkaListener(topics = "test", groupId = "spring")
+//    public void consumer(String message) {
+//        System.out.println(String.format("Subscribed : %s", message));
+//    }
 }
